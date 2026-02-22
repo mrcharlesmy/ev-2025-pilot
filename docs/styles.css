@@ -1,0 +1,35 @@
+/* Load Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Apply to whole document */
+body{
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px; /* change if you want */
+}
+
+/* Chunk title style */
+h2{
+  font-family: "SN Pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #097969;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Stylized explanation font*/
+.expn{
+  font-family: "SN Pro", system-ui;
+  font-size: 16px;
+  color: #0b5ed7;
+  background: #eef5ff;
+  border-left: 4px solid #0b5ed7;
+  padding: 0.6rem 0.8rem;
+  margin: 0.8rem 0;
+}
+
+.expn strong{ font-weight: 600; }
+
+.spacer{ height: 5rem; }
+
+.spacer2{ height: 0.5rem; }
